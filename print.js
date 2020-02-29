@@ -3,7 +3,6 @@ function printCommands(commands) {
   let commandsMsg = '';
   Object.keys(commands).forEach((cmdName) => {
     const command = commands[cmdName].meta;
-    console.log(command);
     commandsMsg += `\`${command.name}\` - ${command.description}\n`;
   });
   return commandsMsg;
