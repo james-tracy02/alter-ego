@@ -1,5 +1,5 @@
 {
-  "name": "alter-ego",
+  "name": "alter-ego.js",
   "version": "1.0.0",
   "description": "A lightweight commands framework for discord.js",
   "main": "alterEgo.js",

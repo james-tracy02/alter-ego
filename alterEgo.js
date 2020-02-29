@@ -54,7 +54,6 @@ module.exports = class AlterEgo {
       if(msg.author.bot) return;
       if(msg.content.startsWith(this.prefix)) {
         const cmd = parse(msg.content.substring(this.prefix.length), this.commands);
-        console.log(this.commands);
         if(!cmd) return;
         return this.commands[cmd.type].execute(msg, cmd);
       };
