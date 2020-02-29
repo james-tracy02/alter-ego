@@ -1,0 +1,16 @@
+{
+  "name": "alter-ego",
+  "version": "1.0.0",
+  "description": "A lightweight commands framework for discord.js",
+  "main": "alterEgo.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-tracy02/alter-ego.git"
+  },
+  "author": "James Tracy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-tracy02/alter-ego/issues"
+  },
+  "homepage": "https://github.com/james-tracy02/alter-ego#readme"
+}
