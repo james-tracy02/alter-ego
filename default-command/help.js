@@ -15,7 +15,7 @@ module.exports = function (alterEgo) {
     execute: function (msg) {
       msg.channel.send(new RichEmbed()
       .setColor(alterEgo.color)
-      .setTitle(`${alterEgo.title} | Prefix ${alterEgo.prefix}`)
+      .setTitle(`${alterEgo.name} | Prefix ${alterEgo.prefix}`)
       .setAuthor('Search Bot', msg.client.user.avatarURL)
       .setDescription(
         alterEgo.desc + '\n\n' +
